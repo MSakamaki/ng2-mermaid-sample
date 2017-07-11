@@ -2,17 +2,10 @@ import {
   Component,
   Directive,
   ElementRef,
-  Renderer,
-  HostListener,
   Input,
-  HostBinding,
-  AfterContentInit,
-  OnInit,
   Sanitizer,
   SecurityContext,
-  AfterViewInit,
-  NgZone
-
+  AfterContentInit
 } from '@angular/core';
 
 @Component({
