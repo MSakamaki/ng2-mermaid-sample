@@ -1,0 +1,22 @@
+
+
+<table>
+  <tr>
+    <td width="400px" height="400px">
+      <p ng2-mermaid>
+        graph TD;
+          A-->B;
+          A-->C;
+          B-->D;
+          C-->D;
+      </p>
+
+    </td><td width="400px" >
+      <ng2-mermaid [text]="text"></ng2-mermaid>
+      <textarea rows="15" cols="50"  [(ngModel)]="text"></textarea>
+    </td>
+  </tr>
+
+</table>
+
+
